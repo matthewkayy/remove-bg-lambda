@@ -1,0 +1,22 @@
+{
+  "name": "remove-bg-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "aws-sdk": "^2.1691.0",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.7.9",
+    "@vercel/ncc": "^0.38.2"
+  }
+}
